@@ -4,20 +4,49 @@ This repository contains our data analysis pipeline in a Jupyter notebook, along
 
 ## Dependencies
 
-- Python 3.8+
-- Git LFS
-- Jupyter Notebook
+You can set up the environment using either Conda (recommended) or pip.
 
-### Python Packages
+### Option 1: Conda Installation (Recommended)
+```bash
+# Create new conda environment
+conda create -n yourenv python=3.8
+conda activate yourenv
+
+# Install packages
+conda install -c conda-forge pandas numpy matplotlib seaborn scikit-learn jupyter
+conda install -c conda-forge geopandas
+conda install -c plotly plotly
+
+# Verify installation
+python -c "import pandas; import numpy; import matplotlib; import seaborn; import sklearn; import geopandas; import plotly"
 ```
+
+### Option 2: Pip Installation
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate environment
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+# Install packages
 pip install -r requirements.txt
 ```
 
-Required packages:
-- pandas
-- numpy
-- jupyter
-[Add any other specific packages your notebook uses]
+requirements.txt:
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
+geopandas
+plotly
+```
 
 ## Setup Instructions
 
@@ -46,20 +75,7 @@ git lfs install
 git lfs pull
 ```
 
-3. Create Python Environment
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate environment
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
+3. Set Up Python Environment (choose either Conda or Pip method above)
 
 4. Launch Jupyter
 ```bash
@@ -78,8 +94,8 @@ jupyter notebook
 - All CSV files are managed through Git LFS
 - Make sure Git LFS is installed before cloning
 - Always pull LFS files after cloning: `git lfs pull`
-- Update requirements.txt if you add new dependencies
+- Use the same environment setup (Conda or pip) as other team members for consistency
 
-## Storage Limits
+## Note: Storage Limits
 - GitHub LFS has a storage limit of 1GB for free accounts
 - Monthly bandwidth limit: 1GB
