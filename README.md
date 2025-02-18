@@ -1,4 +1,4 @@
-# Project Name
+# World Happiness EDA & Model
 
 This repository contains our data analysis pipeline in a Jupyter notebook, along with supporting CSV files managed through Git LFS.
 
