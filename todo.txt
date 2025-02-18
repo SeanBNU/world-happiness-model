@@ -1,0 +1,1 @@
+Geopandas cell is broken in notebook. Some new geopandas update broke a thing called "fiona". Search for "fiona" in notebook to find the cell I'm referring to. 
