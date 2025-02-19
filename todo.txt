@@ -1,10 +1,11 @@
-Clean up the notebook
-Especially:
+1. Clean up the notebook, especially:
 - Data processing/cleaning
 - Neural network not as an afterthought
 - Modularize cleaning functions
 - GET RID OF INTERMEDIATE DATAFRAMES
 
-Build a dashboard
+2. Build a dashboard
 
-Geopandas cell is broken in notebook. Some new geopandas update broke a thing called "fiona". Search for "fiona" in notebook to find the cell I'm referring to. 
+3. Consider modularizing code into several .py files rather than one .ipynb?
+
+Specific note: Geopandas cell is broken in notebook. Some new geopandas update broke a thing called "fiona". Search for "fiona" in notebook to find the cell I'm referring to. 
