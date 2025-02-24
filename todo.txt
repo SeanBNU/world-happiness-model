@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Geopandas cell is broken in notebook. Some new geopandas update broke a thing called "fiona". Search for "fiona" in notebook to find the cell I'm referring to. 
-=======
 1. Clean up the notebook, especially:
 - Data processing/cleaning
 - Neural network not as an afterthought
@@ -12,4 +9,3 @@ Geopandas cell is broken in notebook. Some new geopandas update broke a thing ca
 3. Consider modularizing code into several .py files rather than one .ipynb?
 
 Specific note: Geopandas cell is broken in notebook. Some new geopandas update broke a thing called "fiona". Search for "fiona" in notebook to find the cell I'm referring to. 
->>>>>>> origin/main
