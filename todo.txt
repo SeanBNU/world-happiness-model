@@ -3,6 +3,10 @@
 - Neural network not as an afterthought
 - Modularize cleaning functions
 - GET RID OF INTERMEDIATE DATAFRAMES
+- Consider improving python version 3.8 + .yml stuff + conda update
+- Data dictionary
+- Docstring our functions
+- pick up: imputation
 
 2. Build a dashboard
 
